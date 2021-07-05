@@ -1,0 +1,706 @@
+
+.about__main{
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 8px #474747;
+    margin: 0 auto;
+    min-width: 280px;
+    position: relative;
+    z-index: 20;
+}
+
+.about__wrapper{
+    padding: 15px;
+}
+
+.first__section{
+    padding-top: 60px;
+}   
+
+.first__section__figure{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    grid-column: 2/3;
+}
+
+.first__section__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first__section__text__content{
+    margin: 40px 0 0;
+}
+
+.first__section__text__title{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.first__section__text__paragraph{
+    color: #a8a8a8;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.first__section__button{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000 ;
+}
+
+.first__section__button__text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first__section__button__play{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.first__section__button__icon{
+    font-size: 50px;
+    color: #ff4500;
+}
+
+.firs-section-button-text{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first__section__phone__content{
+    padding-bottom: 60px;
+}
+
+.first__section__phone__content__paragraph{
+    line-height: 1.7;
+    margin: 24px 0;
+}
+
+.first__section__phone__content__logo{
+    display: flex;
+    align-items: center;
+}
+
+.first__section__phone__content__icon{
+    font-size: 20px;
+    color: #ff4500;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.first__section__phone__content__hotline{
+    display: block;
+    color: #808080;
+    font-size: 12px;
+}
+
+.first__section__phone__content__number{
+    font-size: 18px;
+}
+
+/*------------------------------ SEGUNDA SECCIÓN --------------------*/
+
+.second__section{
+    padding-bottom: 60px;
+}
+
+.figure__contain{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.figure__contain__img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.years__title{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 20px 0 20px;
+}
+
+.years__paragraph{
+    color: gray;
+    margin: 0 0 20px;
+}
+
+.years__paragraph__two {
+    font-size: 14px;
+}
+
+.btn__see{
+    margin: 30px 0 40px;
+}
+
+.btn__see__link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    border-radius: 5px;
+    transition: all 300ms ease-in;
+}
+
+.btn__see__link:hover {
+    color: #fff;
+    background-color: #ff4500;
+}
+
+.statistics{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.statistics__clients__number,
+.statistics__employed__number,
+.statistics__projects__number {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.statistics__clients__satisfaction__text {
+    color: gray;
+    font-size: 14px;
+}
+
+
+/*------------------------------------TERCERA SECCION----------------------*/
+
+.third__section {
+    text-align: center;
+    padding: 0 0 60px;
+}
+
+.best__solution__title{
+    margin: 0 0 20px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.best__solution__paragraph{
+    margin: 0 0 40px;
+    font-size: 14px;
+}
+
+.architecture{
+    margin-top: 50px;
+}
+
+.architecture__icon{
+    font-size: 50px;
+    color: #ff4500;
+    margin: 0 0 25px;
+}
+
+.architecture__description__title{
+    font-size: 24px;
+    margin: 0 0 16px;
+    font-weight: 300;
+}
+
+.architecture__description__paragraph{
+    font-size: 14px;
+    margin: 0 0 24px;
+    font-weight: 400;
+}
+
+.architecture__description__number{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.design{
+    margin-top: 50px;
+}
+
+.design__icon {
+    font-size: 50px;
+    color: #ff4500;
+    margin: 0 0 25px;
+}
+
+.design__description__title{
+    font-size: 24px;
+    margin: 0 0 16px;
+    font-weight: 300;
+}
+
+.design__description__paragraph{
+    font-size: 14px;
+    margin: 0 0 24px;
+    font-weight: 400;
+}
+
+.design__description__number{
+    font-size: 14px;
+    font-weight: 500;
+}
+                    
+.production{
+    margin-top: 50px;
+}
+
+.production__icon{
+    font-size: 50px;
+    color: #ff4500;
+    margin: 0 0 25px;
+}
+
+.production__description__title{
+    font-size: 24px;
+    margin: 0 0 16px;
+    font-weight: 300;
+}
+
+.production__description__paragraph{
+    font-size: 14px;
+    margin: 0 0 24px;
+    font-weight: 400;
+}
+
+.production__description__number{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*--------------------------------SECCIÓN CINCO -------------------------------*/
+
+.section__five {
+    padding: 0 0 60px;
+}
+
+.section__five__position {
+    position: relative;
+}
+
+.section__five__figure{
+    width: 100%;
+    margin: 0;
+}
+.section__five__img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.section__five__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+.section__five__sub__title {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section__five__paragraph {
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #312e2e;
+}
+
+.section__five__link {
+    color: #000;
+}
+
+.section__five__all__content__comillas::before{
+    display: block;
+    height: 70px;
+    content: "\0275e";
+    font-size: 100px;
+    color: #ff4500;
+}
+.section__five__all__content__paragraph{
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 10px 0 24px;
+}
+
+.section__five__all__author__name{
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+.section__five__all__author__direction{
+    font-size: 12px;
+}
+
+/*--------------------------------- SECCION SEIS -----------------*/
+
+.section__six{
+    text-align: center;
+    padding: 0 0 60px;
+}
+
+.section__six__title{
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0 0 16px;
+}
+
+.section__six__paragraph{
+    font-size: 14px;
+    margin: 0 0 60px;
+}
+
+.section__six__contain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.section__six__figure{
+    margin: 0;
+    padding: 0;
+}
+
+.section__six__img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+                
+.final-img{
+    grid-column: 1/-1;
+    justify-items: center;
+}
+
+/*--------------------------------------RESPONSIVE-----------------------------------*/
+/*
+    MEDIDAS ESTANDAR
+    ----------------
+
+    576PX PHONE
+    768PX SMART-PHONE
+    992PX TABLET
+    1024PX NOTEBOOK
+    1200PX DESKTOP
+*/
+
+@media screen and (min-width: 576px) {
+    .about__main {
+        max-width: 576px;
+    }
+
+    .first__section__text__title {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    .years__title {
+        font-size: 42px;
+    }
+
+    .statistics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .statistics__clients,
+    .statistics__employed,
+    .statistics__projects {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+   
+    .statistics__clients__number,
+    .statistics__employed__number,
+    .statistics__projects__number {
+        margin-right: 10px;
+        font-size: 46px;
+    }
+
+    .statistics__clients__satisfaction__text {
+        display: block;
+    }
+
+    .best__solution__title {
+        font-size: 42px;
+    }
+
+    .section__five__sub__title {
+        margin: 35px 0 20px;
+        font-size: 32px;
+    }
+    
+    .section__five__paragraph {
+        width: 80%;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .section__six__title {
+        font-size: 42px;
+    }
+
+    .section__six__paragraph {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .about__main {
+        max-width: 768px;
+    }
+
+    .first__section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .first__section__text__title {
+        line-height: 1.1;
+    }
+
+    .first__section__separator {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .second__section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+    }
+    .figure__contain {
+        display: flex;
+        align-items: center;
+    }
+
+    .second__section__separator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statistics {
+        grid-column: 1/-1;
+    }
+
+    .third__section__parts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+    }
+
+    .section__five {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .section__five__figure {
+        grid-column: 2/3;
+    }
+
+    .section__five__all {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section__five__sub__title {
+        font-size: 25px;
+    }
+    
+    .section__five__paragraph {
+        font-size: 14px;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+
+    .about__main {
+        max-width: 992px;
+    }
+
+    .first__section__text__title {
+        font-size: 48px;
+    }
+
+    .first__section__text__paragraph {
+        font-size: 16px;
+    }
+
+    .first__section__button__text {
+        font-size: 16px;
+    }
+
+    .first__section__phone__content__paragraph {
+        margin: 60px 0; 
+    }
+    
+    .first__section__phone__content__icon {
+        font-size: 25px;
+    }
+
+    .first__section__phone__content__hotline {
+        font-size: 14px;
+    }
+
+    .first__section__phone__content__number {
+        font-size: 22px;
+    }
+
+    .statistics {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section__five__all__content__comillas {
+        font-size: 64px;
+    }
+
+    .section__five__all__content__paragraph {
+        font-size: 24px;
+        line-height: 1.7;
+    }
+
+    .section__five__all__author__name {
+        font-size: 18px;
+    }
+
+    .section__five__all__author__direction {
+        font-size: 14px;
+    }
+    
+    .section__five__sub__title {
+        font-size: 32px;
+    }
+    
+    .section__five__paragraph {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .about__main {
+        max-width: 1400px;
+    }
+
+    .first__section__text__title {
+        font-size: 54px;
+        font-weight: 300;
+    }
+
+    .first__section__text__paragraph {
+        font-size: 18px;
+    }
+
+    .first__section__button {
+        padding-bottom: 60px;
+    }
+    
+    .years__title {
+        font-size: 54px;
+    }
+
+    .years__paragraph {
+        font-size: 20px;
+    }
+
+    .years__paragraph__two {
+        font-size: 16px;
+    }
+
+    .statistics {
+        justify-items: center;
+        padding-top: 100px;
+    }
+
+    .statistics__clients__number,
+    .statistics__employed__number,
+    .statistics__projects__number {
+        font-size: 60px;
+    }
+
+    .best__solution__title {
+        font-size: 54px;
+    }
+
+    .best__solution__paragraph {
+        font-size: 18px;
+    }
+
+    .architecture__description__title, 
+    .design__description__title, 
+    .production__description__title {
+        font-size: 36px;
+    }
+
+    .architecture__description__paragraph, 
+    .design__description__paragraph, 
+    .production__description__paragraph {
+        font-size: 18px;
+    }
+   
+    .architecture__description__number,
+    .design__description__number,
+    .production__description__number {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .section__five__all__content__paragraph {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .section__five__all__author__name {
+        font-size: 22px;
+    }
+
+    .section__five__sub__title {
+        margin: 45px 0 30px;
+        font-size: 42px;
+    }
+    
+    .section__five__paragraph {
+        font-size: 22px;
+        margin-bottom: 30px;
+
+    }
+
+    .section__six__title {
+        font-size: 45px;
+    }
+
+    .section__six__paragraph {
+        font-size: 18px;
+    }
+
+    .section__six__contain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+    }
+
+}

@@ -1,0 +1,207 @@
+
+/*----------------------------------------ESTILOS DEL MAIN--------------------------------------*/
+
+.main{   
+    background-color: #fff;
+    box-shadow: 0px 10px 8px #474747;
+    min-width: 280px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 20;
+}
+
+.main__wrapper {
+    padding: 0 15px;
+}
+
+.main__title{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.main__sub__title{
+    font-size: 12px;
+    color: gray;
+}
+
+.main__menu{
+    margin: 20px 0;
+}
+
+.main__list{
+    padding: 0;
+}
+
+.main__list__item{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.contain__product {
+    margin-bottom: 50px;
+}
+
+.contain__figure{
+    margin: 0 0 15px;
+    overflow: hidden;
+}
+
+.contain__img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 1s;
+}
+
+.contain__img:hover{
+    transform: scale(1.1);
+}
+
+.contain__title__product{
+    color: #ff0000;
+    font-weight: 300;
+}
+
+.contain__title{
+    margin: 15px 0 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contain__description{
+    margin: 20px 0;
+}
+
+.contain__button{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contain__link{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #000;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 130px;
+    color: #000;
+}
+
+.contain__link:hover{
+    border-color: #ff4500;
+    color: #ff4500;
+    transition: all 300ms ease-in;
+}
+
+/*--------------------------------------RESPONSIVE-----------------------------------*/
+
+/*
+    MEDIDAS ESTANDAR
+    ----------------
+
+    576PX PHONE
+    768PX SMART-PHONE
+    992PX TABLET
+    1024PX NOTEBOOK
+    1200PX DESKTOP
+*/
+
+@media screen and (min-width: 576px) {
+
+    .main__title {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .main__sub__title {
+        font-size: 16px;
+    }
+
+    .main__menu {
+        margin: 30px 0;
+    }
+
+    .main__list__item {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .main__title {
+        font-size: 36px;
+        padding: 40px 0 20px;
+    }
+
+    .main__sub__title {
+        font-size: 18px;
+    }
+
+    .main__menu {
+        margin: 50px 0;
+    }
+
+    .main__list__item {
+        font-size: 16px;
+    }
+
+    .main__section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .contain__button {
+        grid-column: 1 / -1;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .contain__img{
+        transition: transform 1s;
+    }
+
+    .contain__img:hover{
+        transform: scale(1.1);
+    }
+
+    .main__section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .main__title {
+        font-size: 54px;
+        padding: 40px 0 20px;
+    }
+
+    .main__sub__title {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .main__menu {
+        margin: 60px 0;
+    }
+
+    .contain__title {
+        font-size: 30px;
+    }
+    
+}
+
+
+
