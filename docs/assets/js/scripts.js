@@ -10,34 +10,48 @@ const header__links          = Array.from(document.querySelectorAll('.header__li
 const nav__responsive__link  = Array.from(document.querySelectorAll('.nav__responsive__link'));
 const menu_desplegable       = document.querySelector('.responsive__menu');
 
-//EVENTOS
+
+const elementosHeader = [
+  header,
+  header__logo,
+  header__bars,
+];
+
+
+
+function pintar(elementos) {
+    elementos.forEach((elem) => {
+        elem.classList.add('cambia__color');
+    })
+}
+function despintar (elementos) {
+    elementos.forEach(elem => {
+        elem.classList.remove('cambia__color')
+    })
+}
+
+function borde(elemento, estado) {
+    if (estado){
+        elemento.classList.add('border__bottom--red');
+    }else {
+        elemento.classList.remove('border__bottom--red');
+    }
+}
 
 addEventListener('scroll', () => {
-    const scrollTop = document.documentElement.scrollTop;
-	
-    if (scrollTop > 10) {
-        header.classList.add('cambia__color', 'border__bottom--red');
-        header__logo.classList.add('cambia__color');
-        header__bars.classList.add('cambia__color'); 
+    const miScroll = window.scrollY;
 
-
-        header__links.forEach(link => {
-            link.classList.add('cambia__color')
-        });
-        
+    if (miScroll > 10) {
+        pintar(elementosHeader);
+        pintar(header__links);
+        borde(header, true);
 
     }else {
-        header.classList.remove('cambia__color', 'border__bottom--red');
-        header__logo.classList.remove('cambia__color');
-        header__bars.classList.remove('cambia__color');
-
-
-        header__links.forEach( link => {
-            link.classList.remove('cambia__color');
-        })
+        despintar(elementosHeader);
+        despintar(header__links);
+        borde(header, false);
     }
-    
-});
+})
 
 // FUNCIONES
 function mostrar_ocultar_menu() {
